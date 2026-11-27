@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     APP_ENV: str = "development"
     DEBUG: bool = True
     SECRET_KEY: str = "dev-secret-key-change-in-production"
-    CORS_ORIGINS: str = "http://localhost:5173,http://127.0.0.1:5173"
+    CORS_ORIGINS: str = "http://localhost:5173,http://127.0.0.1:5173,https://mozhiai.netlify.app"
 
     # Database
     DATABASE_URL: str = "sqlite:///./lingua_ai.db"
